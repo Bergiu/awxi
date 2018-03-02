@@ -83,6 +83,10 @@ var xbmc = {};
             if (e.keyCode == 39) { xbmc.input({type: 'Right'}); return false; };
             if (e.keyCode == 38) { xbmc.input({type: 'Up'}); return false; };
             if (e.keyCode == 40) { xbmc.input({type: 'Down'}); return false; };
+            if (e.keyCode == 72) { xbmc.input({type: 'Left'}); return false; };
+            if (e.keyCode == 74) { xbmc.input({type: 'Right'}); return false; };
+            if (e.keyCode == 75) { xbmc.input({type: 'Up'}); return false; };
+            if (e.keyCode == 76) { xbmc.input({type: 'Down'}); return false; };
             if (e.keyCode == 13) { xbmc.input({type: 'Select'}); return false; };
             if (e.keyCode == 73) { xbmc.input({type: 'Info'}); return false; };
             if (e.keyCode == 67) { xbmc.input({type: 'ContextMenu'});
@@ -4274,3 +4278,4 @@ var xbmc = {};
   });
 })(jQuery);
 
+// vim: ts=8 sts=0 et sw=2 sta
